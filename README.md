@@ -18,3 +18,15 @@ And deployed on kubernetes.
 ### Observations
 We could not get Eureka to work together with Kubernetes, so we ended up not using it. 
 Kubernetes deployments can be exposed as a service, and with that we balance load (instead of using Ribbon as was provided)
+
+
+
+
+### MongoDB
+MongoDB is deployed on a digitalocean. When the service's is started up in kubernetes or on localhost you can hit the endpoints for
+
+* the ratings of a particular car
+ URI: {ip}/car/1
+
+- the ratings they selves have given earlier
+ URI: {ip}/user/1
