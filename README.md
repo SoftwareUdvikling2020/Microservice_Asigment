@@ -23,7 +23,7 @@ Kubernetes deployments can be exposed as a service, and with that we balance loa
 
 
 ### MongoDB
-MongoDB is deployed on a digitalocean. When the service's is started up in kubernetes or on localhost you can hit the endpoints for
+MongoDB is deployed on a digitalocean. When the service's is started up in kubernetes or on localhost you can hit the endpoints with ip and these endpoints:
 
 * the ratings of a particular car
  URI: {ip}/car/1
